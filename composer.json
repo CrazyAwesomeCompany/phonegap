@@ -1,0 +1,29 @@
+{
+    "name": "cac/phonegap",
+    "description": "Phonegap Release Builder",
+    "type": "library",
+    "keywords": ["phonegap", "api", "build", "release"],
+    "homepage": "http://www.crazyawesomecompany.com/",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nick de Groot",
+            "email": "nick@crazyawesomecompany.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/CrazyAwesomeCompany/phonegap/issues"
+    },
+    "require": {
+        "php": ">=5.3",
+        "cac/phonegap-api": "@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "CAC\\Component\\Phonegap": "lib/"
+        }
+    },
+    "bin": [
+        "composer/bin/phpunit"
+    ],
+}
